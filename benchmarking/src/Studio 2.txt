@@ -1,0 +1,23 @@
+1. 
+2. error[E0384]: cannot assign twice to immutable variable `x`
+3. It runs fine
+4. Class isntances can be created and reference each other with variables. Although we may have overwritten the name, we don't yet want the other isntance deleted from memory
+5. 
+    My Value: 20
+    My Value: 10
+6. 
+7. thread 'main' panicked at 'attempt to subtract with overflow'
+8. 
+9. 
+10. 
+11. 
+12. 
+13. No, 16 ns because "Typically a CPU can add two 64 bit numbers in 1 - 4 clock cycles. A computer with a 1 Ghz clock means each clock cycle is 1 nanosecond (a thousandth of a millionth of a second). Most CPUs are 1 - 4 GHz, which means 1 to 4 clock cycles is somewhere around 1 nanosecond to add two numbers."
+14. The number went down to 14 because there is more data to get a more accurate average.
+15. Running time: 0ns
+    20
+    20
+    20
+    20
+    20
+16. Yes, both surprised me as I expected the speeds to be swapped. What makes the println function so fast in comparison to other languages?

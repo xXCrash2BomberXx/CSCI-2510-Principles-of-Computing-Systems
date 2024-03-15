@@ -1,0 +1,15 @@
+1. The face appears; Windows 11
+2. 2^7 = 128
+3. 0x534C55
+4. 3 bytes
+5. No, because ASCII consistes only of the latin alphabet, numbers, and punctuation
+6. A language using symbols to write entire words instead of idividual letters; Chinese; Instead of only having 26 letters, there are millions of words and there aren't enough bits to store that much information 你
+7. 
+8. UTF-8: 0x534C55, 3 bytes; UTF-16: 0053004C0055, 6 bytes; UTF-32: 000000530000004C00000055, 12 bytes
+9. 10 bytes
+10. 
+11. This difference would be between multiplying the already large data many times or simply mcreating a new way of viewing it. This would save both memory and time on the program.
+12. 
+13. 
+14. No, because one is the characters in the string and the other is the bytes of the string. They will be equal when it is a single UTF-8 character length string.
+15. 

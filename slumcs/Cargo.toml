@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+        "log_component",
+        "send_log",
+        "test_logger",
+        "deadlock_detect",
+        "crack",
+        "hash_demo",
+		"fuzzer"
+]

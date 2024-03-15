@@ -1,0 +1,20 @@
+1. 
+2. It echos the privded input
+3. The command prints the contents of the text file
+4. The command writes the provided lines to a text file with the provided name
+5. 
+6. 
+7. 
+8. use std::io;
+9. let mut input = String::new();
+10. io::stdin().read_line(&mut input)
+11. print/println
+12. fn main() -> io::Result<()> {}
+13. 
+14. object.method()
+15. the total number of bytes read
+16. 
+17. 
+18. 
+19. 
+20. Mutability of the string allows it to be resizeable at runtime to allow a single string variable declaration instead of a unique one for each line typed

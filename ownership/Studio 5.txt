@@ -1,0 +1,18 @@
+1. A Rust object needs to implement the 'drop()' method when the object needs to perform some cleanup when it goes out of scope and is being deallocated
+2. The Copy trait is used to specify that a type can be "copied" rather than moved whereas the Clone trait is used to specify that a type can be duplicated, but the original and the duplicate are distinct values and can be modified independently
+3. In this case you can choose the cheapest method that fits their requirements, rather than always having to make a more expensive clone
+4. True; False
+5. Move
+6. Copy
+7. Move
+8. Move
+9. No, becuase if cloning were performed automatically, it could cause unintended performance overhead and increase memory usage, particularly in cases where a copy is not needed
+10. The declaration of 'copy' uses move on 'greeting' but both are used in the code later. This can be fixed by cloning 'greeting' to 'copy'
+11. If the type of the argument implements the Copy trait, the argument is copied. Otherwise, it is moved. If x is of type String, it does not implement the Copy trait, so when it is passed as an argument to the function F, ownership of x is transferred to F, and x is no longer accessible outside of F
+12. modify; point 3
+13. b and s are moved but are later needed for the final println
+14. The code works and s is dropped at the end of the main
+15. Unlimited because the underlying memory location never changes
+16. One to ensure the safety of the code and avoid data races and race conditions, which can lead to undefined behavior
+17. Multiple mutable borrows
+18. Yes, because the program drops r1 and uses r2

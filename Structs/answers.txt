@@ -1,0 +1,13 @@
+1. 
+    a. Encapsulation, Inheritance, and Polymorphism are what come to mind when discussing OOP and all of them lead to higher readability without jeopordizing efficiency.
+    b. By thinking ahead in those aspects, you can achieve efficiency and readability as well as flexibility for both users and future developers who use your code in some way.
+2. The car would be the base object with abstract objects for the Engine, Tires, and other parts of the car.
+3. 
+    a. The method would utilize the Engine and Wheel abstract objects to calculate a speed of travel and this would be applied to the distance found between the two cities.
+    b. Overall, I like OOP and its functionalities and simplicities. I also like the complexities it offers that you can learn and optionally use.
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
